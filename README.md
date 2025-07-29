@@ -1,6 +1,24 @@
-# Project Empty Template
+# Python Backend Integration Mini Project
 
-This is a sample repository for you to start developing the task. Please carefully read the requirements of the task statement on the platform and follow best practices on how to use this repository.
+This project is used to demo a sample FAST API integration.
+
+The project is built with FastAPI, and uses python for integrations
+
+For running the project on your local computer proceed with the following instructions:
+
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+The for running the wen application:
+
+```
+uvivorn app:main --reload
+```
+
+For this make sure uvicorn is installed within the desired system.
 
 ## Repository Readme
 
